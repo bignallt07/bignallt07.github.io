@@ -22,7 +22,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-    res.redirect("/projects/1");
+    res.redirect("/projects/0");
 });
 
 app.get("/projects/:id", (req, res, next) => {
