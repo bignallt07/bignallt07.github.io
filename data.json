@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "description of project",
+            "technologies": [],
+            "live_link": "github pages link",
+            "github_link": "link to repo",
+            "image_urls": []
+        }, 
+        {
+            "id": 1,
+            "project_name": "Data Pagination",
+            "description": "description of project",
+            "technologies": [],
+            "live_link": "github pages link",
+            "github_link": "link to repo",
+            "image_urls": []
+        }, 
+        {
+            "id": 2,
+            "project_name": "Form",
+            "description": "description of project",
+            "technologies": [],
+            "live_link": "github pages link",
+            "github_link": "link to repo",
+            "image_urls": []
+        }, 
+        {
+            "id": 3,
+            "project_name": "Movie Quote Game",
+            "description": "description of project",
+            "technologies": [],
+            "live_link": "github pages link",
+            "github_link": "link to repo",
+            "image_urls": []
+        }, 
+        {
+            "id": 4,
+            "project_name": "API fetcher",
+            "description": "description of project",
+            "technologies": [],
+            "live_link": "github pages link",
+            "github_link": "link to repo",
+            "image_urls": []
+        }, 
+        {
+            "id": 5,
+            "project_name": "HR Recruitment Solutions",
+            "description": "description of project",
+            "technologies": [],
+            "live_link": "github pages link",
+            "github_link": "link to repo",
+            "image_urls": []
+        }
+    ]
+}
