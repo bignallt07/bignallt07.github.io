@@ -7,7 +7,11 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/techdegree-project-1/",
             "github_link": "https://github.com/bignallt07/techdegree-project-1",
-            "image_urls": []
+            "image_urls": [
+                ["project-1-example1.jpg", "Random Quote Generator Frame"],
+                ["project-1-example2.jpg", "Random Quote Generator Example"],
+                ["project-1-example3.jpg", "Random Quote Generator Example"]
+            ]
         }, 
         {
             "id": 1,
@@ -16,7 +20,12 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td2-data-pagination-and-filtering-app/",
             "github_link": "https://github.com/bignallt07/td2-data-pagination-and-filtering-app/tree/main",
-            "image_urls": []
+            "image_urls": [
+                ["project-2-frame.jpg", "Data Pagination Frame"],
+                ["project-2-pagination.jpg", "Pagination Example"],
+                ["project-2-search.jpg", "Project Search Capability"],
+                ["project-2-filter.jpg", "Project filtering profiles"]
+            ]
         }, 
         {
             "id": 2,
@@ -25,7 +34,13 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td3-interactive-form/",
             "github_link": "https://github.com/bignallt07/td3-interactive-form",
-            "image_urls": []
+            "image_urls": [
+                ["project-3-frame.jpg", "Interactive Form Frame"],
+                ["project-3-form.jpg", "Interactive Form Image"],
+                ["project-3-select.jpg", "Form option select capability"],
+                ["project-3-activities.jpg", "Activity Registration"],
+                ["project-3-bottom.jpg", "Payment Options"]
+            ]
         }, 
         {
             "id": 3,
@@ -34,7 +49,15 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td4-oop-game/",
             "github_link": "https://github.com/bignallt07/td4-oop-game",
-            "image_urls": []
+            "image_urls": [
+                ["project-4-frame.jpg", "Movie Quote Frame"],
+                ["project-4-fullscreen.jpg", "Fullscreen image of game"],
+                ["project-4-opening.jpg", "Opening Title"],
+                ["project-4-letters.jpg", "Displays letters"],
+                ["project-4-loselives.jpg", "Reducing lives capability"],
+                ["project-4-win.jpg", "Win Screen"],
+                ["project-4-lose.jpg", "Lose Screen"]        
+            ]
         }, 
         {
             "id": 4,
@@ -43,7 +66,11 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td5-Public-API-Requests/",
             "github_link": "https://github.com/bignallt07/td5-Public-API-Requests",
-            "image_urls": []
+            "image_urls": [
+                ["project-5-frame.jpg", "Public API Request Frame"],
+                ["project-5-newfetch.jpg", "Image of new fetch example"],
+                ["project-5-filter.jpg", "Profile filtering"]
+            ]
         }, 
         {
             "id": 5,
@@ -52,7 +79,13 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
             "live_link": "http://hrrecruitmentsolutions.com/",
             "github_link": "https://github.com/bignallt07/hrrs-website",
-            "image_urls": []
+            "image_urls": [
+                ["hrrs-frame.jpg", "hrrs frame image"],
+                ["hrrs-about.jpg", "about page example"],
+                ["hrrs-footer.jpg", "image of the footer"],
+                ["hrrs-jobs.jpg", "image of the jobs page"],
+                ["hrrs-testimonial.jpg", "Testimonials example"]
+            ]
         }
     ]
 }
