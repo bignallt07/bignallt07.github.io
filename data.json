@@ -2,21 +2,22 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Random Quote Generator",
-            "description": "A collection of random quotes from famous football managers. This site generates a new quote every 10 seconds",
+            "project_name": "Random Quote Generator App",
+            "description": "My first completed project on my tech degree journey. I made a random quote generator of some of my favourite football quotes. When you load this app, you will get a random quote, then if that bores you, you can wait 10 seconds for a different quote, or simply press the 'show another quote' button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/techdegree-project-1/",
             "github_link": "https://github.com/bignallt07/techdegree-project-1",
             "image_urls": [
-                ["project-1-example1.jpg", "Random Quote Generator Frame"],
+                ["project-1-frame.jpg", "Random Quote Generator Frame"],
                 ["project-1-example2.jpg", "Random Quote Generator Example"],
-                ["project-1-example3.jpg", "Random Quote Generator Example"]
+                ["project-1-example3.jpg", "Random Quote Generator Example"],
+                ["project-1-example4.jpg", "Random Quote Generator Example"]
             ]
         }, 
         {
             "id": 1,
-            "project_name": "Data Pagination",
-            "description": "An example of pagination and filtering a collection of data. Limiting the page display to 9 profiles",
+            "project_name": "Data Pagination and Filtering Project",
+            "description": "When you have hundreds, if not thousands of profiles of data. There is no way you want to scroll through them all. This app builds a dynamic pagination and filtering system to restrict the view of the user to less than 10, and give them the option to search through all the profiles to find the one you want. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td2-data-pagination-and-filtering-app/",
             "github_link": "https://github.com/bignallt07/td2-data-pagination-and-filtering-app/tree/main",
@@ -29,15 +30,14 @@
         }, 
         {
             "id": 2,
-            "project_name": "Interactive User Form",
-            "description": "An example of an interactive web form that listens and reacts to user input, whether it is accurate or inaccurate",
+            "project_name": "Interactive Web Form",
+            "description": "This web form has multiple functionalities, it listens for errors, has collapsable and switching input fields depending on user interaction, as well as blocking event clashing errors, and the use of JavaScript regular expressions to ensure the user correctly enters their payment details or email address. This is a busy form and rather than going into more detail, I recommend you jump to view the live demo (to your right)",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td3-interactive-form/",
             "github_link": "https://github.com/bignallt07/td3-interactive-form",
             "image_urls": [
                 ["project-3-frame.jpg", "Interactive Form Frame"],
                 ["project-3-form.jpg", "Interactive Form Image"],
-                ["project-3-select.jpg", "Form option select capability"],
                 ["project-3-activities.jpg", "Activity Registration"],
                 ["project-3-bottom.jpg", "Payment Options"]
             ]
@@ -45,29 +45,27 @@
         {
             "id": 3,
             "project_name": "Movie Quote Game",
-            "description": "A guess the quote game built using object-orientated programming. This game provides a quote and allows 5 guesses for the user to guess correctly. The outcome of the game depends on the users success.",
+            "description": "Using Object-Orientated Programming, I built a Movie Phrase Hunter game. The aim, to simply guess the movie I was thinking of when I built it. This app reacts to both button click and keyboard touches when playing the game, and will listen for correct and incorrect letter guesses, removing lives from the player if necessary.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td4-oop-game/",
             "github_link": "https://github.com/bignallt07/td4-oop-game",
             "image_urls": [
                 ["project-4-frame.jpg", "Movie Quote Frame"],
                 ["project-4-fullscreen.jpg", "Fullscreen image of game"],
-                ["project-4-opening.jpg", "Opening Title"],
                 ["project-4-letters.jpg", "Displays letters"],
-                ["project-4-loselives.jpg", "Reducing lives capability"],
-                ["project-4-win.jpg", "Win Screen"],
-                ["project-4-lose.jpg", "Lose Screen"]        
+                ["project-4-loselives.jpg", "Reducing lives capability"]       
             ]
         }, 
         {
             "id": 4,
             "project_name": "Public API Request Profiles",
-            "description": "This app demonstrate fetching an API from an external site and displaying and filtering the data depending on user interaction",
+            "description": "This app demonstrates fetching an API from an external database and then displaying and filtering the fetched data depending on the webpage. This data fetches just 12 profiles, and when clicking on one of the fetched profiles, there is a modal window that allows your to see through all of the data in more detail. This app also has a search function added to it, you know... just in case.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td5-Public-API-Requests/",
             "github_link": "https://github.com/bignallt07/td5-Public-API-Requests",
             "image_urls": [
                 ["project-5-frame.jpg", "Public API Request Frame"],
+                ["project-5-modal.jpg", "Pop up modal view"],
                 ["project-5-newfetch.jpg", "Image of new fetch example"],
                 ["project-5-filter.jpg", "Profile filtering"]
             ]
@@ -75,7 +73,7 @@
         {
             "id": 5,
             "project_name": "HR Recruitment Solutions",
-            "description": "HR Recruitment Solutions is a start up recruitment consultancy based in England",
+            "description": "This website was built for a start-up recruitment business based in England. With the opportunity to take on this project, I created this design, with the input and ideas of my entrepreneurial client. This site was built and designed from scratch, with the help of my favorite bootstrap components! Please view this site to see my design skills in full flow.",
             "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
             "live_link": "http://hrrecruitmentsolutions.com/",
             "github_link": "https://github.com/bignallt07/hrrs-website",
@@ -83,7 +81,6 @@
                 ["hrrs-frame.jpg", "hrrs frame image"],
                 ["hrrs-about.jpg", "about page example"],
                 ["hrrs-footer.jpg", "image of the footer"],
-                ["hrrs-jobs.jpg", "image of the jobs page"],
                 ["hrrs-testimonial.jpg", "Testimonials example"]
             ]
         }

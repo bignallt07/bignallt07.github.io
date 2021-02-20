@@ -22,7 +22,8 @@ body {
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  /* background: #000; */
+  background-color: #ec8175;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -52,6 +53,7 @@ h6{
 p{
   font-size: 15px;
   color: #666;
+  /* color: #353535; */
 }
 
 a {
@@ -137,7 +139,8 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  /* background: #000; */
+  background-color: #ec8175;
 }
 
 .sidebar-info-box {
@@ -167,7 +170,8 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  /* color: #999 - NEW BELOW */ 
+  color:  #353535;  
 }
 
 .sidebar a {

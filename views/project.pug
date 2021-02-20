@@ -34,9 +34,9 @@ block content
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      //- img.project-img(src='https://placehold.it/1200x550', alt='')
-      each image in image_urls 
-        img.project-img(src=`/static/images/${image[0]}`, alt=`${image[1]}`)
+      img.project-img(src=`/static/images/${image_urls[1][0]}`, alt=`${image_urls[1][1]}`)
+      img.project-img(src=`/static/images/${image_urls[2][0]}`, alt=`${image_urls[2][1]}`)
+      img.project-img(src=`/static/images/${image_urls[3][0]}`, alt=`${image_urls[3][1]}`)
 
     nav.nav
       a(href='/')
