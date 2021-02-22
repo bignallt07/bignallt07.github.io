@@ -1,0 +1,24 @@
+extends layout.pug 
+
+block content 
+
+    .error-page 
+        .error-container.clearfix
+            .error-left 
+                h1 Oh nuts... 
+
+                h2 This location doesn't have a page, did you check under that other tree?
+
+                hr
+
+                h3.code #{status}
+
+                h3.details #{message}
+
+                a(href='/').error-button Take me back home!
+
+            .error-right
+
+                img(src="/static/images/error-image.jpg" id="error-squirrel" alt="Picture of a squirrel with a nut")
+
+      

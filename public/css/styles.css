@@ -266,6 +266,15 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
+/* Added Style */
+.index-footer {
+  padding: 5px 50px;
+}
+
+.index-footer h4 {
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+}
 
 /* 
   About and project pages styles 
@@ -275,9 +284,17 @@ nav a span {
   font-size: 125%;
 }
 
+.about-bio {
+  padding-top: 20px;
+}
+
 .about-bio p {
   font-size: 15px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
+}
+
+.about-bio h4 {
+  padding-top: 10px;
 }
 
 .skills-contact-box ul {
@@ -302,6 +319,72 @@ nav a span {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
+}
+
+/*
+  Error Pages
+*/
+
+.error-page {
+  padding: 5%;
+  background-color: #ec8175;
+  min-height: 100vh;           /* Added due to lack of content*/
+}
+
+.error-container {
+  background-color: #fff;
+  padding: 5%;
+  width: 100%;
+}
+
+.error-container h1 {
+  font-size: 4em;
+}
+
+.error-container h2 {
+  font-size: 2em;
+}
+
+.code {
+  font-size: 3em;
+}
+
+.error-left, .error-right {
+  width: 50%;
+  float: left;
+}
+
+.error-right {
+  text-align: center;
+}
+
+#error-squirrel {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.error-button {
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  background-color: #ec8175;
+  border-radius: 10px;
+}
+
+.error-button:hover {
+  color: #ec8175;
+  background-color: white;
+  border: 1px solid #eaeaea; 
+}
+
+.stack {
+  margin-bottom: 20px;
 }
 
 

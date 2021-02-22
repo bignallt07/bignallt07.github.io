@@ -38,7 +38,7 @@ app.get("/projects/:id", (req, res, next) => {
 // Error Routes
 // Creating 404 error
 app.use((req, res, next) => {
-    const err = new Error("There was an Error");            // Create error and message
+    const err = new Error("There has been an error loading the page");            // Create error and message
     err.status = 404;                                   // Defines the 404 = not found
     next(err);                                          // Sends the error to the next middlewear
 });
@@ -47,11 +47,15 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     res.locals.error = err;                             // Set locals to error, whether it be 404 or global
     res.status(err.status);                             // Whatever the response status code is, is set  
-    console.error(`Error Occured... Status: ${err.status} - ${err.message}`);                         
-    res.render("error");                // Open page
+    console.error(`Error Occured... Status: ${err.status} - ${err.message}`);
+    if (err.status === 404) {                         
+        res.render("page-not-found", err);    
+    } else {                      
+        res.render("error", err);  
+    }
 });
 
 
 app.listen(3000, () => {
-    console.log("The app is listening on port 3000");
+    console.log(`The app is listening on port 3000 - Follow Link: http://localhost:3000/`);
 });
