@@ -10,6 +10,7 @@ html(lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/styles.css')
 
   body
+    //- Start of Sidebar
     #my-info.sidebar
       .sidebar-info-box
         br
@@ -17,21 +18,19 @@ html(lang="en" dir="ltr")
           img.thumbnail(src='/static/images/profile.png', alt='Photo of Tom Bignall')
         .dev-intro-box
 
-          //- Replace with your name
           h5 Tom Bignall
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p I'm a Full-Stack Web Developer who loves to learn new things, master them, and pass on my skills! I am an avid sportsman and love spending time with my family!
+          p I'm a Full-Stack Web Developer who loves to learn new things, master them, and pass on my skills! I am an sports fanatic and love spending time with my family!
 
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
+    //- End of Sidebar
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
+          //- Note: From Mobile Layout
           span Tom Bignall
 
       block content

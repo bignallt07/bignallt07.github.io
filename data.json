@@ -8,10 +8,10 @@
             "live_link": "https://bignallt07.github.io/techdegree-project-1/",
             "github_link": "https://github.com/bignallt07/techdegree-project-1",
             "image_urls": [
-                ["project-1-frame.jpg", "Random Quote Generator Frame"],
-                ["project-1-example2.jpg", "Random Quote Generator Example"],
-                ["project-1-example3.jpg", "Random Quote Generator Example"],
-                ["project-1-example4.jpg", "Random Quote Generator Example"]
+                ["project-1-frame.png", "Random Quote Generator Frame"],
+                ["project-1-example1.png", "Random Quote Generator Example"],
+                ["project-1-example2.png", "Random Quote Generator Example"],
+                ["project-1-example3.png", "Random Quote Generator Example"]
             ]
         }, 
         {
@@ -22,10 +22,10 @@
             "live_link": "https://bignallt07.github.io/td2-data-pagination-and-filtering-app/",
             "github_link": "https://github.com/bignallt07/td2-data-pagination-and-filtering-app/tree/main",
             "image_urls": [
-                ["project-2-frame.jpg", "Data Pagination Frame"],
-                ["project-2-pagination.jpg", "Pagination Example"],
-                ["project-2-search.jpg", "Project Search Capability"],
-                ["project-2-filter.jpg", "Project filtering profiles"]
+                ["project-2-frame.png", "Data Pagination Frame"],
+                ["project-2-pagination.png", "Pagination Example"],
+                ["project-2-search.png", "Project Search Capability"],
+                ["project-2-filter.png", "Project filtering profiles"]
             ]
         }, 
         {
@@ -36,10 +36,10 @@
             "live_link": "https://bignallt07.github.io/td3-interactive-form/",
             "github_link": "https://github.com/bignallt07/td3-interactive-form",
             "image_urls": [
-                ["project-3-frame.jpg", "Interactive Form Frame"],
-                ["project-3-form.jpg", "Interactive Form Image"],
-                ["project-3-activities.jpg", "Activity Registration"],
-                ["project-3-bottom.jpg", "Payment Options"]
+                ["project-3-frame.png", "Interactive Form Frame"],
+                ["project-3-form.png", "Interactive Form Image"],
+                ["project-3-activities.png", "Activity Registration"],
+                ["project-3-bottom.png", "Payment Options"]
             ]
         }, 
         {
@@ -50,10 +50,10 @@
             "live_link": "https://bignallt07.github.io/td4-oop-game/",
             "github_link": "https://github.com/bignallt07/td4-oop-game",
             "image_urls": [
-                ["project-4-frame.jpg", "Movie Quote Frame"],
-                ["project-4-fullscreen.jpg", "Fullscreen image of game"],
-                ["project-4-letters.jpg", "Displays letters"],
-                ["project-4-loselives.jpg", "Reducing lives capability"]       
+                ["project-4-frame.png", "Movie Quote Frame"],
+                ["project-4-fullscreen.png", "Fullscreen image of game"],
+                ["project-4-letters.png", "Displays letters"],
+                ["project-4-loselives.png", "Reducing lives capability"]       
             ]
         }, 
         {
@@ -64,10 +64,10 @@
             "live_link": "https://bignallt07.github.io/td5-Public-API-Requests/",
             "github_link": "https://github.com/bignallt07/td5-Public-API-Requests",
             "image_urls": [
-                ["project-5-frame.jpg", "Public API Request Frame"],
-                ["project-5-modal.jpg", "Pop up modal view"],
-                ["project-5-newfetch.jpg", "Image of new fetch example"],
-                ["project-5-filter.jpg", "Profile filtering"]
+                ["project-5-frame.png", "Public API Request Frame"],
+                ["project-5-modal.png", "Pop up modal view"],
+                ["project-5-newfetch.png", "Image of new fetch example"],
+                ["project-5-filter.png", "Profile filtering"]
             ]
         }, 
         {
@@ -75,13 +75,13 @@
             "project_name": "HR Recruitment Solutions",
             "description": "This website was built for a start-up recruitment business based in England. With the opportunity to take on this project, I created this design, with the input and ideas of my entrepreneurial client. This site was built and designed from scratch, with the help of my favorite bootstrap components! Please view this site to see my design skills in full flow.",
             "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-            "live_link": "http://hrrecruitmentsolutions.com/",
+            "live_link": "https://hrrecruitmentsolutions.com/",
             "github_link": "https://github.com/bignallt07/hrrs-website",
             "image_urls": [
-                ["hrrs-frame.jpg", "hrrs frame image"],
-                ["hrrs-about.jpg", "about page example"],
-                ["hrrs-footer.jpg", "image of the footer"],
-                ["hrrs-testimonial.jpg", "Testimonials example"]
+                ["hrrs-frame.png", "hrrs frame image"],
+                ["hrrs-about.png", "about page example"],
+                ["hrrs-footer.png", "image of the footer"],
+                ["hrrs-testimonial.png", "Testimonials example"]
             ]
         }
     ]

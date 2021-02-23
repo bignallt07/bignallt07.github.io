@@ -1,31 +1,25 @@
 extends layout.pug
 
 block content
-
+  //- Intro Article
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
     h1 Oh, Hey There!
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p Welcome to my Portfolio. My name is Tom Bignall, and I am a Full-Stack Web Developer. Throughout this portfolio you will see examples of my programming journey and see exactly what I can bring to any business. I am a lover of JavaScript and my goal is to just keep getting better! 
 
-
+  //- Project Thumbnails
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
       
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
       each project in projects
         .cell
-          a(href='#')
-            img.thumbnail(src=`/static/images/${project.image_urls[0][0]}`, alt='#{project.image_urls[0][1]}')
+          a(href=`../projects/${project.id}`)
+            img.thumbnail(src=`/static/images/${project.image_urls[0][0]}`, alt='Thumbnail: #{project.image_urls[0][1]}')
             h5 #{project.project_name}
 
+    //- Additional Section
     div.index-footer
       h4 Upcoming Projects 
       p Stay tuned, over the next few weeks I will be uploading more projects showing off skills with React, SQL and API's
