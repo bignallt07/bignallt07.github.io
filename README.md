@@ -28,10 +28,11 @@ Node JS
         * Line 56: Main paragraph color changed
         * Line 143: .sidebar color changed 
         * Line 174: .sidebar paragraph color changed
-        * Line 269-274: Additional styles added for the additional homepage div
+        * Line 269-277: Additional styles added for the additional homepage div
         * Line 293: .about-bio paragraph padding-top removed
         * Line 322: .btn-link box shadow added
-        * Line 325-389: Error Page Styles Added
+        * Line 325-383: Error Page Styles Added (mobile)
+        * Line 447-467: Error Page Styles Added (Desktop)
 
 ## Contribution
 If you have any suggestions to improve this app, please reach out to me on github
