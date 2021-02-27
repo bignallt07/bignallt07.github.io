@@ -161,9 +161,12 @@ nav a span {
   padding: 10px;
 }
 
-.sidebar h5 {
+.sidebar span {
   color: #fefefe;
-  margin: 0 auto 0.5rem;
+  margin: 0;
+  text-align: right;
+  display: block;
+  text-transform: uppercase;
 }
 
 .sidebar p {
@@ -177,10 +180,11 @@ nav a span {
 .sidebar a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 19px;
+  margin: 10px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color:rgb(46, 46, 46);
 }
 
 .header {
@@ -237,7 +241,7 @@ nav a span {
   margin: 0 auto 8px;
 }
 
-.portfolio-intro p {
+.portfolio-intro p, .index-footer {
   text-rendering: optimizeLegibility;
   font-size: 125%;
   margin: 0 auto;
@@ -265,7 +269,7 @@ nav a span {
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
-
+  
 /* Added Styles */
 .index-footer {
   padding: 5px 50px;
@@ -274,6 +278,12 @@ nav a span {
 .index-footer h4 {
   border-top: 1px solid #eaeaea;
   padding-top: 20px;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.index-footer p {
+  font-size: 1em;
 }
 
 /* 
@@ -321,6 +331,10 @@ nav a span {
   border: 1px solid transparent;
   box-shadow: 3px 3px 3px gray;
 }
+
+  #mainNav {
+    display: none;
+  }
 
 /*
   Error Pages
@@ -382,16 +396,83 @@ nav a span {
   display: none;
 }
 
+/* Added Sidebar */
+.social-sidebar {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid white;
+} 
+
+.social-sidebar a {
+  color: white;
+  font-size: 30px;
+}
+
+.social-sidebar a:hover {
+  color: hsl(6, 67%, 77%);
+}
+
+.sidebar .firstName {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1;
+}
+
+.sidebar .lastName {
+  font-weight: lighter;
+  font-size: 2em;
+  line-height: 1;
+}
+
+.sidebar img {
+  filter: sepia(100%);
+}
+
+.sidebarMenu {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.sidebarMenu span {
+  text-align: center;
+  font-size: 1.25em;
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+}
+
+.sidebarMenu a {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.sidebarMenu a:hover {
+  background-color: hsl(6, 67%, 77%);
+}
+
 /* 
   Tablet layout styles 
 */
 @media screen and (min-width: 768px) {
-  .sidebar h5 {
-    font-size: 1.25rem;
+  .sidebar span {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sidebar h3 {
+    margin: 10px 0;
+  }
+
+  .sidebarMenu {
+    display: none;
   }
 
   .portfolio-intro h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .box {
@@ -418,6 +499,29 @@ nav a span {
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  /* Nav Main Styles */
+  #mainNav {
+    display: inline-block;
+    margin: 0px 40px;
+    border-bottom: 2px solid rgb(46, 46, 46);
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  #mainNav a {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: #666;
+    display: inline-block;
+    padding: 10px 30px;
+  } 
+
+  #mainNav a:hover {
+    color: black;
+    font-weight:550;
   }
 }
 

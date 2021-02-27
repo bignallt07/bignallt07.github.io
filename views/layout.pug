@@ -18,11 +18,28 @@ html(lang="en" dir="ltr")
           img.thumbnail(src='/static/images/profile.png', alt='Photo of Tom Bignall')
         .dev-intro-box
 
-          h5 Tom Bignall
+          span.firstName Tom 
+          span.lastName Bignall
 
-          p I'm a Front-End Web Developer who loves to learn new things, master them, and pass on my skills! I am an sports fanatic and love spending time with my family!
+          h3 Front End Web Developer
 
-          a(href='/about') Learn More &rarr;
+          div.social-sidebar 
+            a(href="mailto:bignallt@gmail.com")
+              i.far.fa-envelope
+            a(href="tel:503-502-1857")
+              i.fas.fa-phone-square-alt
+            a(href="https://github.com/bignallt07")
+              i.fab.fa-github
+            a(href="https://www.linkedin.com/in/tombignall/")
+              i.fab.fa-linkedin
+
+          //- a(href='/about') Learn More &rarr;
+
+          .sidebarMenu 
+            span Menu
+            a(href="/") Home
+            a(href="/about") About Me
+            a(href="/projects/0") Projects
     //- End of Sidebar
 
     .wrapper
@@ -36,3 +53,4 @@ html(lang="en" dir="ltr")
       block content
 
   script(src='/static/js/script.js')
+  script(src="https://kit.fontawesome.com/076ce7faaa.js" crossorigin="anonymous")
