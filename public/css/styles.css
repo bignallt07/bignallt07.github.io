@@ -475,6 +475,14 @@ nav a span {
     font-size: 5rem;
   }
 
+  .sidebar .firstName {
+    font-size: 3em;
+  }
+
+  .sidebar .lastName {
+    font-size: 3em;
+  }
+
   .box {
     border-bottom: none;
   }
