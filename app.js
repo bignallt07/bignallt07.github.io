@@ -94,7 +94,7 @@ app.use((err, req, res, next) => {
     res.locals.error = err;                            
     res.status(err.status);                           
     console.error(`Error Occured... Status: ${err.status} - ${err.message}`);
-    if (err.status === 404) {                         
+    if (err.status === 404) {                      
         res.render("page-not-found", err);    
     } else {                      
         res.render("error", err);  
