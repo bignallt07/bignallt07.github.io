@@ -2,58 +2,69 @@ extends layout.pug
 
 block content
 
-  nav.nav
-    a(href='/')
-      span &larr;
-      |  Back
+  include includes/nav.pug
 
   article.portfolio-about
     .inner-wrapper.flex-row-wrap.two-col
       .about-intro-box.box
 
-        h1 Tom Bignall
+        #about-head
+          #about-head-left.col-head 
+          img(src="/static/images/profile.png") 
 
-        p Front-End Web Developer
+          #about-head-right.col-head
+            h1 Oh, hey there!
 
         //- Bio
         .about-bio
 
-          h3 The adventure continues...
+          p
+            strong I'm Tom Bignall, a Front End Web Developer. Here is a little about me...
           p My journey hasn't been a standard one, I've had a career where I have managed teams, and taught in a classroom, as well as working in two different countries. Although, since picking up basic Web Design skills back in 2010, and then deciding to teach myself basic skills in JavaScript and Python programming languages, I have never looked back. 
           p Right now, I am working on completing team treehouses' awesome full-stack JavaScript techdegree to give me all the skills I need to be successful in the tech industry. My day job is to teach juniors and seniors in high school all the programming skills I know, and not only has that improved my own skill set, but it has given me the skills of communication (the power of good comments), review, coaching, and structuring when it comes to programming.  
           p Outside of building cool things, I like to play sports, and I am an avid football nut. I love spending time with my family, and playing with Dinosaurs, Lego, and Construction Vehicles. Did I mention? My family includes a 3 year old.
-          h4 And how does the adventure continue exactly?
+          p
+            strong And how does the adventure continue exactly?
           p I'm glad you asked, in the summer of 2021, my family and I want to return to England (we currently reside in Portland, OR) to pursue the next stage of our journey. I plan on moving from teaching programming to contributing to the tech industry, by showing off my skills. Also importantly, working for a company that I truely believe in. 
 
 
       .skills-contact-box.box
-        h6 Skills
-
+        h6 Skills and Languages 
+        br
+        span Most Experience in...
         ul
-          li HTML
-          li CSS
-          li JavaScript
-          li Git and GitHub
-          li VS Code
-          li Accessibility
+          li HTML (11 years)
+          li CSS (11 years)
+          li JavaScript (2 years)
+        span Experience in...
+        ul
+          li Python (2 years)
           li Bootstap
           li Object-Orientated Programming
-          li Fetch and Public APIs
           li Node.js
-          li Express
-          li Pug
-          li Python
-
-        h6 Contact Info
-
+          li Git and Github
+          li Working with Regular Expressions
+          li Fetch and Public APIs
+        span Dabbled in...
         ul
-          li 503-502-1857
-          li bignallt@gmail.com
+          li Express
+          li React (shortly moving up)
+          li Pug
+          li SQL
+          
 
-        a.btn-link(href='https://www.linkedin.com/in/tombignall/' target="_blank") LinkedIn
-        a.btn-link(href='https://github.com/bignallt07' target="_blank") GitHub
+        h6 Contact Me
+        .contactBox
+          a.btn-link(href='mailto:bignallt@gmail.com') bignallt@gmail.com
+          a.btn-link(href='tel:503-502-1857') 503-502-1857
+
+          .social-skills
+            a(href="https://github.com/bignallt07" target="_blank")
+              i.fab.fa-github
+            a(href="https://www.linkedin.com/in/tombignall/" target="_blank")
+              i.fab.fa-linkedin
 
     nav.nav
       a(href='/')
         span &larr;
-        |  Back
+        |  Back Home

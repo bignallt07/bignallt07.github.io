@@ -2,10 +2,7 @@ extends layout.pug
 
 block content
 
-  nav.nav
-    a(href='/')
-      span &larr;
-      |  Back
+  include includes/nav.pug
 
   //- Project name and description
   article.portfolio-projects
@@ -17,7 +14,7 @@ block content
         p #{description}
 
       .project-tech-links-box.box
-        h6 Technologies
+        h6 Tech
         ul
 
           each tech in technologies
@@ -33,7 +30,24 @@ block content
       img.project-img(src=`/static/images/${image_urls[2][0]}`, alt=`${image_urls[2][1]}`)
       img.project-img(src=`/static/images/${image_urls[3][0]}`, alt=`${image_urls[3][1]}`)
 
+    .projectsNav 
+      h5 Project Navigation
+      a.prevProj(href=`${id-1}`) Prev
+      a.nextProj(href=`${id+1}`) Next
+      
+
     nav.nav
       a(href='/')
         span &larr;
-        |  Back
+        |  Back Home
+
+  script.
+    const prev = document.querySelector(".prevProj");
+    const next = document.querySelector(".nextProj");
+    if (#{id} === 0) {
+      prev.style.display = "none";
+    }
+    if (#{id} === 5) {
+      next.style.display = "none";
+    }
+    //- Line 51 needs fixing when I have the time
