@@ -9,6 +9,8 @@ const data = require("./data.json");
 
 const app = express();
 
+// Port Variable
+const port = process.env.PORT || 3000;
 
 /*************************************
  * Middlewear Set up
@@ -103,6 +105,6 @@ app.use((err, req, res, next) => {
  * Set up server on port: 3000 with console message
 *************************************/ 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`The app is listening on port 3000 - Follow Link: http://localhost:3000/`);
 });
