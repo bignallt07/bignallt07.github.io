@@ -1,3 +1,6 @@
+// Port Variable
+const port = process.env.PORT || 3000;
+
 /*************************************
  * Basic Node and Express Set up
  *      1. Require Express
@@ -8,9 +11,6 @@ const express = require("express");
 const data = require("./data.json");
 
 const app = express();
-
-// Port Variable
-const port = process.env.PORT || 3000;
 
 /*************************************
  * Middlewear Set up
