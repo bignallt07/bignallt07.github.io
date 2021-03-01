@@ -31,7 +31,7 @@
         {
             "id": 2,
             "project_name": "Interactive Web Form",
-            "description": "This web form has multiple functionalities, it listens for errors, has collapsable and switching input fields which depend on user interaction. It also restricts event clashing errors, and uses JavaScript regular expressions to ensure the user correctly enters their payment details or email address. This is a busy form and rather than going into more detail, I recommend you jump to view the live demo.",
+            "description": "This web form has multiple functionalities, it listens for errors, has collapsable and switching input fields which depend on user interaction. It also restricts event clashing errors, and uses JavaScript Regular Expressions to ensure the user correctly enters their payment details or email address. This is a busy form and rather than going into more detail, I recommend you jump to view the live demo.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td3-interactive-form/",
             "github_link": "https://github.com/bignallt07/td3-interactive-form",
