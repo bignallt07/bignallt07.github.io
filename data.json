@@ -45,7 +45,7 @@
         {
             "id": 3,
             "project_name": "Movie Quote Game",
-            "description": "Using Object-Orientated Programming, I built a Movie Phrase Hunter game. The aim, to simply guess the movie I was thinking of when I built it. This app reacts to both button clicks and keyboard touches when playing the game, and will listen for correct or incorrect letter guesses, removing lives from the player if necessary.",
+            "description": "Using Object-Oriented Programming, I built a Movie Phrase Hunter game. The aim, to simply guess the movie I was thinking of when I built it. This app reacts to both button clicks and keyboard touches when playing the game, and will listen for correct or incorrect letter guesses, removing lives from the player if necessary.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://bignallt07.github.io/td4-oop-game/",
             "github_link": "https://github.com/bignallt07/td4-oop-game",
