@@ -2,30 +2,30 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Random Quote Generator App",
-            "description": "This was my first completed project on my Treehouse Tech Degree journey. I made a random quote generator of some of my favourite football quotes. When you load this app, you will get a random quote, then if that bores you, you can wait 10 seconds for a different quote, or simply press the 'show another quote' button.",
+            "project_name": "Public API Request Profiles",
+            "description": "This app demonstrates fetching an API from an external database, then displaying and filtering the fetched data depending on the webpage. This data fetches just 12 profiles, and when clicking on one of the fetched profiles, there is a modal window that allows your to see through all of the data in more detail. This app also has a search function added to it, you know... just in case.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://bignallt07.github.io/techdegree-project-1/",
-            "github_link": "https://github.com/bignallt07/techdegree-project-1",
+            "live_link": "https://bignallt07.github.io/td5-Public-API-Requests/",
+            "github_link": "https://github.com/bignallt07/td5-Public-API-Requests",
             "image_urls": [
-                ["project-1-frame.png", "Random Quote Generator Frame"],
-                ["project-1-example1.png", "Random Quote Generator Example"],
-                ["project-1-example2.png", "Random Quote Generator Example"],
-                ["project-1-example3.png", "Random Quote Generator Example"]
+                ["project-5-frame.png", "Public API Request Frame"],
+                ["project-5-modal.png", "Pop up modal view"],
+                ["project-5-newfetch.png", "Image of new fetch example"],
+                ["project-5-filter.png", "Profile filtering"]
             ]
-        }, 
+        },
         {
             "id": 1,
-            "project_name": "Data Pagination and Filtering Project",
-            "description": "When you have hundreds, if not thousands of profiles of data, there is no way you want to scroll through them all. This app builds a dynamic pagination and filtering system to restrict the view of the user to less than 10, and give them the option to search through all the profiles to find the one they want. ",
+            "project_name": "Movie Quote Game",
+            "description": "Using Object-Oriented Programming, I built a Movie Phrase Hunter game. The aim, to simply guess the movie I was thinking of when I built it. This app reacts to both button clicks and keyboard touches when playing the game, and will listen for correct or incorrect letter guesses, removing lives from the player if necessary.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://bignallt07.github.io/td2-data-pagination-and-filtering-app/",
-            "github_link": "https://github.com/bignallt07/td2-data-pagination-and-filtering-app/tree/main",
+            "live_link": "https://bignallt07.github.io/td4-oop-game/",
+            "github_link": "https://github.com/bignallt07/td4-oop-game",
             "image_urls": [
-                ["project-2-frame.png", "Data Pagination Frame"],
-                ["project-2-pagination.png", "Pagination Example"],
-                ["project-2-search.png", "Project Search Capability"],
-                ["project-2-filter.png", "Project filtering profiles"]
+                ["project-4-frame.png", "Movie Quote Frame"],
+                ["project-4-fullscreen.png", "Fullscreen image of game"],
+                ["project-4-letters.png", "Displays letters"],
+                ["project-4-loselives.png", "Reducing lives capability"]       
             ]
         }, 
         {
@@ -41,37 +41,23 @@
                 ["project-3-activities.png", "Activity Registration"],
                 ["project-3-bottom.png", "Payment Options"]
             ]
-        }, 
+        },
         {
             "id": 3,
-            "project_name": "Movie Quote Game",
-            "description": "Using Object-Oriented Programming, I built a Movie Phrase Hunter game. The aim, to simply guess the movie I was thinking of when I built it. This app reacts to both button clicks and keyboard touches when playing the game, and will listen for correct or incorrect letter guesses, removing lives from the player if necessary.",
+            "project_name": "Data Pagination and Filtering Project",
+            "description": "When you have hundreds, if not thousands of profiles of data, there is no way you want to scroll through them all. This app builds a dynamic pagination and filtering system to restrict the view of the user to less than 10, and give them the option to search through all the profiles to find the one they want. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://bignallt07.github.io/td4-oop-game/",
-            "github_link": "https://github.com/bignallt07/td4-oop-game",
+            "live_link": "https://bignallt07.github.io/td2-data-pagination-and-filtering-app/",
+            "github_link": "https://github.com/bignallt07/td2-data-pagination-and-filtering-app/tree/main",
             "image_urls": [
-                ["project-4-frame.png", "Movie Quote Frame"],
-                ["project-4-fullscreen.png", "Fullscreen image of game"],
-                ["project-4-letters.png", "Displays letters"],
-                ["project-4-loselives.png", "Reducing lives capability"]       
+                ["project-2-frame.png", "Data Pagination Frame"],
+                ["project-2-pagination.png", "Pagination Example"],
+                ["project-2-search.png", "Project Search Capability"],
+                ["project-2-filter.png", "Project filtering profiles"]
             ]
-        }, 
+        },
         {
             "id": 4,
-            "project_name": "Public API Request Profiles",
-            "description": "This app demonstrates fetching an API from an external database, then displaying and filtering the fetched data depending on the webpage. This data fetches just 12 profiles, and when clicking on one of the fetched profiles, there is a modal window that allows your to see through all of the data in more detail. This app also has a search function added to it, you know... just in case.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://bignallt07.github.io/td5-Public-API-Requests/",
-            "github_link": "https://github.com/bignallt07/td5-Public-API-Requests",
-            "image_urls": [
-                ["project-5-frame.png", "Public API Request Frame"],
-                ["project-5-modal.png", "Pop up modal view"],
-                ["project-5-newfetch.png", "Image of new fetch example"],
-                ["project-5-filter.png", "Profile filtering"]
-            ]
-        }, 
-        {
-            "id": 5,
             "project_name": "HR Recruitment Solutions",
             "description": "This website was built for a start-up recruitment company based in England. With the opportunity to take on this project, I created this design, with the input and ideas of my entrepreneurial client. This site was built and designed from scratch, with the help of my favorite bootstrap components! Please view this site to see my design skills in full flow.",
             "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -83,6 +69,20 @@
                 ["hrrs-footer.png", "image of the footer"],
                 ["hrrs-testimonial.png", "Testimonials example"]
             ]
-        }
+        },  
+        {
+            "id": 5,
+            "project_name": "Random Quote Generator App",
+            "description": "This was my first completed project on my Treehouse Tech Degree journey. I made a random quote generator of some of my favourite football quotes. When you load this app, you will get a random quote, then if that bores you, you can wait 10 seconds for a different quote, or simply press the 'show another quote' button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://bignallt07.github.io/techdegree-project-1/",
+            "github_link": "https://github.com/bignallt07/techdegree-project-1",
+            "image_urls": [
+                ["project-1-frame.png", "Random Quote Generator Frame"],
+                ["project-1-example1.png", "Random Quote Generator Example"],
+                ["project-1-example2.png", "Random Quote Generator Example"],
+                ["project-1-example3.png", "Random Quote Generator Example"]
+            ]
+        } 
     ]
 }
