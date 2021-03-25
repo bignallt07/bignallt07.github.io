@@ -2,6 +2,20 @@
     "projects": [
         {
             "id": 0,
+            "project_name": "React Image Gallery",
+            "description": "This app produces an image gallery for whatever you like. I picked Giraffes, Elephants and Ducks as main routes for your pleasure. However, this app has a search feature and uses a Flickr.com API which returns images of anything you wish. The app is built using the React Library, which includes the use of the React Router, mainly because thr search renders its own route. A super fun project to build which let me demonstrate the power of React!",
+            "technologies": ["HTML", "CSS", "JavaScript", "React"],
+            "live_link": "https://react-image-library.netlify.app/",
+            "github_link": "https://github.com/bignallt07/td7-react-gallery-app",
+            "image_urls": [
+                ["project-6-frame.png", "React Image Gallery Frame"],
+                ["project-6-main.png", "Landing page of Image Gallery"],
+                ["project-6-search.png", "Search Functionality"],
+                ["project-6-404.png", "404 Error Page"]
+            ]
+        },
+        {
+            "id": 1,
             "project_name": "Public API Request Profiles",
             "description": "This app demonstrates fetching an API from an external database, then displaying and filtering the fetched data depending on the webpage. This data fetches just 12 profiles, and when clicking on one of the fetched profiles, there is a modal window that allows your to see through all of the data in more detail. This app also has a search function added to it, you know... just in case.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -15,7 +29,7 @@
             ]
         },
         {
-            "id": 1,
+            "id": 2,
             "project_name": "Movie Quote Game",
             "description": "Using Object-Oriented Programming, I built a Movie Phrase Hunter game. The aim, to simply guess the movie I was thinking of when I built it. This app reacts to both button clicks and keyboard touches when playing the game, and will listen for correct or incorrect letter guesses, removing lives from the player if necessary.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -29,7 +43,7 @@
             ]
         }, 
         {
-            "id": 2,
+            "id": 3,
             "project_name": "Interactive Web Form",
             "description": "This web form has multiple functionalities, it listens for errors, has collapsable and switching input fields which depend on user interaction. It also restricts event clashing errors, and uses JavaScript Regular Expressions to ensure the user correctly enters their payment details or email address. This is a busy form and rather than going into more detail, I recommend you jump to view the live demo.",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -43,7 +57,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "Data Pagination and Filtering Project",
             "description": "When you have hundreds, if not thousands of profiles of data, there is no way you want to scroll through them all. This app builds a dynamic pagination and filtering system to restrict the view of the user to less than 10, and give them the option to search through all the profiles to find the one they want. ",
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -57,7 +71,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 5,
             "project_name": "HR Recruitment Solutions",
             "description": "This website was built for a start-up recruitment company based in England. With the opportunity to take on this project, I created this design, with the input and ideas of my entrepreneurial client. This site was built and designed from scratch, with the help of my favorite bootstrap components! Please view this site to see my design skills in full flow.",
             "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -71,7 +85,7 @@
             ]
         },  
         {
-            "id": 5,
+            "id": 6,
             "project_name": "Random Quote Generator App",
             "description": "This was my first completed project on my Treehouse Tech Degree journey. I made a random quote generator of some of my favourite football quotes. When you load this app, you will get a random quote, then if that bores you, you can wait 10 seconds for a different quote, or simply press the 'show another quote' button.",
             "technologies": ["HTML", "CSS", "JavaScript"],
