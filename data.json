@@ -5,7 +5,7 @@
             "project_name": "SQL Library App",
             "description": "This app demonstates using SQL (structured query language) with a Node and Express app. The app allows users to enter books into a library, update and delete them if necessary. This app was built using the SQL ORM (Object Relational Mapping) 'Sequelize'. There are some additional features built into this like a search bar, pagination and error validation",
             "technologies": ["HTML", "CSS", "JavaScript", "Node JS", "Express", "SQL", "Sequelize ORM", "Pug"],
-            "live_link": "https://sql-library-app-bignall.herokuapp.com/books",
+            "live_link": "https://github.com/bignallt07/td8-SQL-Library-Manager",
             "github_link": "https://github.com/bignallt07/td8-SQL-Library-Manager",
             "image_urls": [
                 ["project-8-frame.png", "SQL Library App"],

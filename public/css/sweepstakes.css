@@ -1,0 +1,126 @@
+body {
+    background-color: #EDE8f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors */
+/* Darkest
+#3d52A0
+#7091E6
+#8697C4
+#ADBBDA
+#EDE8f5
+Lightest */
+
+h1 {
+    font-size: 48px;
+    color: #3d52A0;
+}
+
+p {
+    color: grey;
+}
+
+h2, h3 {
+    color: #7091E6;
+}
+
+#container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#intro, #video, #tables {
+    text-align: center;
+    padding: 2% 5%;
+}
+
+#intro {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+/* Tables */
+.group, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+td:not(:first-child), th {
+    padding: 20px;
+}
+
+tr:first-child {
+    background-color: #8697C4;
+}
+
+tr:not(:first-child) {
+    background-color: #ADBBDA;
+}
+
+td:not(:last-child), th:not(:last-child) {
+    text-align: left;
+}
+
+td:first-child, th:first-child {
+    width: 10%;
+}
+
+td:first-child {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+td:not(:first-child), th:not(:first-child) {
+    width: 30%;
+}
+
+.group {
+    margin: 2% auto;
+    min-width: 50%;
+}
+
+.group-title {
+    text-decoration: underline;
+}
+
+#footer {
+    text-align: center;
+    padding: 2% 5%;
+}
+
+@media screen and (max-width: 620px) {
+    #video {
+        padding: 0;
+    }
+
+    #video iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    td:not(:first-child), th {
+        padding: 5px;
+    }
+
+    
+}

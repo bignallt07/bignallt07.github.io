@@ -44,6 +44,13 @@ app.get("/about", (req, res) => {
 });
 
 /**
+ * Sweepstakes Route - Delete Later
+ */
+app.get("/sweepstakes", (req, res) => {
+    res.render("sweepstakes");
+});
+
+/**
  * project redirect route
  * 
  * This redirects user if they don't add an id parmeter
