@@ -26,6 +26,33 @@ html(lang="en" dir="ltr")
           #video
             iframe(width='560', height='315', src='https://www.youtube.com/embed/HmmIx2HBhNI?si=_K6F1PRDb6feQ-J-', title='YouTube video player', frameborder='0', allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share', referrerpolicy='strict-origin-when-cross-origin', allowfullscreen='')
 
+        #knockout-round 
+
+          #last-16 
+            h2 Last 16
+            .game
+              p Wayne v Jubb
+            .game 
+              p Pete v Ben A.
+            .game
+              p Jon v Hads 
+            .game 
+              p Hads v Ash 
+            .game 
+              p Tom v Damo 
+            .game 
+              p Collins v Damo 
+            .game 
+              p Ash v Ben H.
+            .game 
+              p Jubb v Nick
+
+          #quarter-final 
+
+          #semi-final 
+
+          #final
+        
         #tables
           h2 Tables
           
@@ -36,30 +63,31 @@ html(lang="en" dir="ltr")
               th Country 
               th Name 
               th Points
-            tr 
+            tr#qualified
               td 
                 img(src='/static/images/sweep-images/germany-flag-icon.png' width="50px")
               td Germany
               td Pete Lamb
-              td 6
-            tr 
-              td 
+              td 7
+            tr#qualified 
+              td
                 img(src='/static/images/sweep-images/switzerland-flag-icon.png' width="50px")
               td Switzerland
               td Wayne Cooper
-              td 4
+              td 5
+            tr 
+              td 
+                img(src='/static/images/sweep-images/hungary-flag-icon.png' width="50px")
+              td Hungary
+              td Nick Miller
+              td 3
             tr 
               td 
                 img(src='/static/images/sweep-images/scotland-flag-icon.png' width="50px")
               td Scotland
               td Jon Timm
               td 1
-            tr 
-              td 
-                img(src='/static/images/sweep-images/hungary-flag-icon.png' width="50px")
-              td Hungary
-              td Nick Miller
-              td 0
+            
           
           h3.group-title Group B
           table#group-b.group
@@ -68,29 +96,29 @@ html(lang="en" dir="ltr")
               th Country 
               th Name 
               th Points
-            tr 
-              td 
+            tr#qualified 
+              td
                 img(src='/static/images/sweep-images/spain-country-flag-icon.png' width="50px")
               td Spain
               td Hads Johnson-Harvey
-              td 6
-            tr 
+              td 9
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/italy-flag-icon.png' width="50px")
               td Italy
               td Steven Jubb
-              td 3
-            tr 
-              td 
-                img(src='/static/images/sweep-images/albania-flag-icon.png' width="50px")
-              td Albania
-              td Wayne Cooper
-              td 1
+              td 4
             tr 
               td 
                 img(src='/static/images/sweep-images/croatia-flag-icon.png' width="50px")
               td Croatia
               td Tom Bignall
+              td 2
+            tr 
+              td 
+                img(src='/static/images/sweep-images/albania-flag-icon.png' width="50px")
+              td Albania
+              td Wayne Cooper
               td 1
 
           h3.group-title Group C
@@ -100,30 +128,30 @@ html(lang="en" dir="ltr")
               th Country 
               th Name 
               th Points
-            tr 
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/england-flag-icon.png' width="50px")
               td England
               td Jon Timm
-              td 4
-            tr 
+              td 5
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/denmark-flag-icon.png' width="50px")
               td Denmark
               td Ben Alvey
-              td 2
-            tr 
+              td 3
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/slovenia-flag-icon.png' width="50px")
               td Slovenia 
               td Damion Clay
-              td 2
+              td 3
             tr 
               td 
                 img(src='/static/images/sweep-images/serbia-flag-icon.png' width="50px")
               td Serbia
               td James Collins
-              td 1
+              td 2
 
           h3.group-title Group D
           table#group-d.group
@@ -132,30 +160,30 @@ html(lang="en" dir="ltr")
               th Country
               th Name 
               th Points
-            tr 
+            tr#qualified 
+              td 
+                img(src='/static/images/sweep-images/austria-flag-icon.png' width="50px")
+              td Austria
+              td Ash Wainwright
+              td 6
+            tr#qualified 
+              td
+                img(src='/static/images/sweep-images/france-flag-icon.png' width="50px")
+              td France
+              td Tom Bignall
+              td 5
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/netherlands-flag-icon.png' width="50px")
               td Netherlands
               td Nick Miller
               td 4
             tr 
-              td
-                img(src='/static/images/sweep-images/france-flag-icon.png' width="50px")
-              td France
-              td Tom Bignall
-              td 4
-            tr 
-              td 
-                img(src='/static/images/sweep-images/austria-flag-icon.png' width="50px")
-              td Austria
-              td Ash Wainwright
-              td 3
-            tr 
               td 
                 img(src='/static/images/sweep-images/poland-flag-icon.png' width="50px")
               td Poland
               td Ben Alvey
-              td 0
+              td 1
             
 
           h3.group-title Group E
@@ -165,30 +193,30 @@ html(lang="en" dir="ltr")
               th Country 
               th Name 
               th Points
-            tr 
+            tr#qualified
               td 
                 img(src='/static/images/sweep-images/romania-flag-icon.png' width="50px")
               td Romania
               td Steven Jubb
-              td 3
-            tr 
+              td 4
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/belgium-flag-icon.png' width="50px")
               td Belgium              
               td Damion Clay
-              td 3
-            tr 
-              td 
+              td 4
+            tr#qualified 
+              td
                 img(src='/static/images/sweep-images/slovakia-flag-icon.png' width="50px")
               td Slovakia
               td Hads Johnson-Harvey
-              td 3
+              td 4
             tr 
               td 
                 img(src='/static/images/sweep-images/ukraine-flag-icon.png' width="50px")
               td Ukraine
               td Ben Hodge
-              td 3
+              td 4
 
           h3.group-title Group F
           table#group-f.group
@@ -197,29 +225,29 @@ html(lang="en" dir="ltr")
               th Country 
               th Name 
               th Points
-            tr 
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/portugal-flag-icon.png' width="50px")
               td Portugal
               td James Collins
               td 6
-            tr 
+            tr#qualified 
               td 
                 img(src='/static/images/sweep-images/turkey-flag-icon.png' width="50px")
               td Turkey
               td Ben Hodge
-              td 3
+              td 6
+            tr#qualified 
+              td 
+                img(src='/static/images/sweep-images/georgia-flag-icon.png' width="50px")
+              td Georgia
+              td Ash Wainwright
+              td 4
             tr 
               td 
                 img(src='/static/images/sweep-images/czech-republic-flag-icon.png' width="50px")
               td Czech Republic
               td Pete Lamb
-              td 1
-            tr 
-              td 
-                img(src='/static/images/sweep-images/georgia-flag-icon.png' width="50px")
-              td Georgia
-              td Ash Wainwright
               td 1
 
         #footer 
