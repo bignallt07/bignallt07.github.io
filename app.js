@@ -44,11 +44,11 @@ app.get("/about", (req, res) => {
 });
 
 /**
- * Sweepstakes Route - Delete Later
+ * Sweepstakes Route - Hidden until needed again
  */
-app.get("/sweepstakes", (req, res) => {
-    res.render("sweepstakes");
-});
+// app.get("/sweepstakes", (req, res) => {
+//     res.render("sweepstakes");
+// });
 
 /**
  * project redirect route
